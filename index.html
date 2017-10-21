@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trivia Game</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body background="assets/images/ANCHORMAN.jpg">
+	
+<div class="row">
+<div class="container">
+<header>
+	<h1>ANCHORMAN TRIVIA</h1>
+</header>
+<!--Timer-->
+
+<div class="timer"><p>BEGIN!</p></div>
+
+<div id="score"></div>
+
+<!--Questions-->
+<div id="questions">
+
+
+
+<form name="anchorman" method="post" name="buttons" id="quiz" onsubmit="return false">
+
+
+	<div class="quest">"What does Ron Burgundy say to get fired from Channel 4 news?"</div>
+		<input class="ans" type="radio" name="questi1" value="0">Veronica Corningstone Sucks<br>
+		<input class="ans" type="radio" name="questi1" value="0">I hate San Diego<br>
+		<input class="ans" type="radio" name="questi1" value="1">F*** You San Diego<br>
+		<input class="ans" type="radio" name="questi1" value="0">Brick is an Idiot<hr>
+	
+
+	<div class="quest">How well does 'Sex Panther' work all the time?</div>
+		<input class="ans" type="radio" name="questi2" value="0">22%<br>
+		<input class="ans" type="radio" name="questi2" value="1">60%<br>
+		<input class="ans" type="radio" name="questi2" value="0">48%<br>
+		<input class="ans" type="radio" name="questi2" value="0">100%<hr>
+	
+
+	<div class="quest">What does San Diego mean, according to Ron Burgundy</div>
+		 <input class="ans" type="radio" name="questi3" value="1">A whales Vagina<br>
+		<input class="ans" type="radio" name="questi3" value="0">Saint Deigo<br>
+		<input class="ans" type="radio" name="questi3" value="0">Something German<br>
+		<input class="ans" type="radio" name="questi3" value="0">A Marvelous Place<hr>
+	
+
+	<div class="quest">How did Brick Kill a Guy?</div>
+		<input class="ans" type="radio" name="questi4" value="0">A Machette</br>
+		<input class="ans" type="radio" name="questi4" value="1">A Trident<br>
+		<input class="ans" type="radio" name="questi4" value="0">A Hand Gernade<br>
+		<input class="ans" type="radio" name="questi4" value="0">A Revolver<hr>
+	
+
+
+	<div class="quest">Who was the number 2 newscast team in San Diego?</div>
+		<input class="ans" type="radio" name="questi5" value="0">Spanish Channel<br>
+		<input class="ans" type="radio" name="questi5" value="0">Channel 4<br>
+		<input class="ans" type="radio" name="questi5" value="1">Channel 2<br>
+		<input class="ans" type="radio" name="questi5" value="0">Channel 9<hr>
+	
+
+	<div class="quest">What instrument does Ron Burgundy play?</div>
+		<input class="ans" type="radio" name="questi6" value="1">Jazz Flute<br>
+		<input class="ans" type="radio" name="questi6" value="0">Guitar<br>
+		<input class="ans" type="radio" name="questi6" value="0">Hermonica<br>
+		<input class="ans" type="radio" name="questi6" value="0">Jazz Cello<hr>
+	
+
+	<div class="quest">According to the narrator what does Frank Sinatra look like compares to Ro Burgundy?</div>
+		<input class="ans" type="radio" name="questi7" value="0">A bum<br>
+		<input class="ans" type="radio" name="questi7" value="0">A King<br>
+		<input class="ans" type="radio" name="questi7" value="0">A bear<br>
+		<input class="ans" type="radio" name="questi7" value="1">A Hobo<hr>
+	</div>
+	
+	<input id=submit type="submit" name="submit" value="submit" >
+</form>
+
+
+<div id="final"></div>
+</div>
+</div>
+
+</body>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
